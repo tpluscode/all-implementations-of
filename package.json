@@ -3,11 +3,15 @@
   "version": "1.0.0",
   "description": "Walks the prototype tree and find all method of given name",
   "main": "index.js",
+  "scripts": {
+    "prepublish": "tsc"
+  },
   "devDependencies": {
     "typescript": "^3.7.2"
   },
   "files": [
-    "*.js"
+    "*.js",
+    "*.d.ts"
   ],
   "repository": {
     "type": "git",
