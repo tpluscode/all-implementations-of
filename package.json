@@ -1,0 +1,29 @@
+{
+  "name": "@tpluscode/all-implementations-of",
+  "version": "1.0.0",
+  "description": "Walks the prototype tree and find all method of given name",
+  "main": "index.js",
+  "devDependencies": {
+    "typescript": "^3.7.2"
+  },
+  "files": [
+    "*.js"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tpluscode/all-implementations-of.git"
+  },
+  "keywords": [
+    "javascript",
+    "prototype"
+  ],
+  "author": "tpluscode <tpluscode@users.noreply.github.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/tpluscode/all-implementations-of/issues"
+  },
+  "homepage": "https://github.com/tpluscode/all-implementations-of#readme",
+  "publishConfig": {
+    "access": "public"
+  }
+}
