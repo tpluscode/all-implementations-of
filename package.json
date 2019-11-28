@@ -1,6 +1,6 @@
 {
   "name": "@tpluscode/all-implementations-of",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Walks the prototype tree and find all method of given name",
   "main": "index.js",
   "scripts": {
