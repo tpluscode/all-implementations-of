@@ -5,7 +5,9 @@ export function getAllImplementationsOf(cls: any, methodName: string): Function[
 
     while (proto) {
         if (proto.prototype && Object.prototype.hasOwnProperty.call(proto.prototype, methodName)) {
-            fns.push(proto.prototype[methodName])
+            if (!fns.includes(proto.prototype[methodName])) {
+                fns.push(proto.prototype[methodName])
+            }
         }
         proto = Object.getPrototypeOf(proto)
     }
